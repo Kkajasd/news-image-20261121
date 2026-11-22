@@ -1,34 +1,36 @@
-// news-image-20261121: copies the pre-rendered front-page PNG to the
-// output directory. No network access, no dependencies beyond Node itself.
-import { copyFileSync, mkdirSync, readFileSync, statSync } from "node:fs";
+// news-image-20261121 round 4: "The World Today" for Saturday 21 November 2026.
+// The front page is drawn by tools/draw_frontpage.py (Pillow, system DejaVu
+// fonts, no network, no clock, no randomness), so the program is fully
+// deterministic: two runs write byte-identical entry.png files.
+// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
+//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+
+import { spawnSync } from "node:child_process";
+import { existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const here = dirname(fileURLToPath(import.meta.url));
-const src = join(here, "entry.png");
-const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
-const dest = join(outDir, "entry.png");
-const MAX_BYTES = 1048576;
-
-const buf = readFileSync(src);
-if (buf.length < 8 || buf[0] !== 0x89 || buf[1] !== 0x50 || buf[2] !== 0x4e || buf[3] !== 0x47) {
-  throw new Error("entry.png is not a PNG file (bad magic bytes)");
-}
-if (buf.length > MAX_BYTES) {
-  throw new Error(`entry.png is ${buf.length} bytes, over the 1 MiB limit`);
-}
-// PNG IHDR: width at bytes 16-19, height at bytes 20-23 (big-endian).
-const width = buf.readUInt32BE(16);
-const height = buf.readUInt32BE(20);
-if (width !== 1024 || height !== 1024) {
-  throw new Error(`entry.png is ${width}x${height}, expected 1024x1024`);
-}
-
-// Never remove the output directory (it may be a bind mount): only create it.
+const repoDir = dirname(fileURLToPath(import.meta.url));
+const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
-copyFileSync(src, dest);
-const copied = statSync(dest).size;
-if (copied !== buf.length) {
-  throw new Error(`copied size ${copied} does not match source size ${buf.length}`);
+
+const run = spawnSync(
+  "python3",
+  [join(repoDir, "tools", "draw_frontpage.py")],
+  {
+    cwd: repoDir,
+    env: { ...process.env, MAKEFUN_OUTPUT_DIR: outDir },
+    stdio: "inherit",
+  },
+);
+if (run.error) {
+  throw run.error;
 }
-console.log(`Wrote ${dest} (${copied} bytes, ${width}x${height} PNG)`);
+if (run.status !== 0) {
+  throw new Error(`draw_frontpage.py exited with status ${run.status}`);
+}
+const entry = join(outDir, "entry.png");
+if (!existsSync(entry)) {
+  throw new Error(`expected output missing: ${entry}`);
+}
+console.log(`wrote ${entry}`);

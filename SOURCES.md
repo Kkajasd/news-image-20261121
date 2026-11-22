@@ -1,36 +1,83 @@
-# Sources — news-image-20261121
+# Sources — Saturday 21 November 2026
 
-Every story on the front page, with its source outlet. All stories were
-reported on 21 November 2026.
+Every story on the front page was reported on 21 November 2026 (events that
+happened, or were first reported, on that day in any time zone). The week's
+Shenzhen summit and the ICJ Myanmar ruling (19–20 November) are NOT headlined
+as 21 November events; only the 21 November reactions to them are used.
 
-## Lead
+## Featured stories
 
-- Mexico captures cartel boss "El Chapo Isidro" — Fausto Isidro Meza Flores, Beltrán Leyva leader and one of the FBI's 10 Most Wanted, captured overnight in Guasave, Sinaloa with US intelligence help. — AP / Reuters
+1. Iran strikes Bahrain — Iran's Revolutionary Guards said they hit two US
+   bases (al-Riffa and Awali); Bahrain reported a fire at a civilian
+   industrial site and no injuries. Sources: One Turn day page
+   (oneturn.news/day/2026-11-21), Standard Topic world archive.
+2. Russian missile hits Kryvyi Rih — a ballistic missile struck the centre
+   of Zelenskyy's hometown, killing two and wounding dozens; a second strike
+   hit rescuers. Sources: One Turn, Axonia SENTINEL daily brief 2026-11-21.
+3. AI stock sell-off — Nasdaq fell 5.28% to 22,617.73, erasing its 2026
+   gains; S&P 500 fell 3.7% into correction. Sources: Axonia SENTINEL,
+   B.R. Spencer morning brief 2026-11-21.
+4. COP31 runs past deadline — the Antalya climate talks ran into overtime
+   without a deal; fossil-fuel wording was dropped from the draft. Sources:
+   One Turn, "What Happened in the World" 2026-11-21 roundup.
+5. Mexico captures Chapo Isidro — special forces captured FBI most-wanted
+   Fausto Isidro Meza Flores in Guasave, Sinaloa; violence that followed
+   left at least 11 dead. Sources: One Turn, Standard Topic.
+6. Trump defends Putin ties; Zelenskyy hits back — after the Shenzhen
+   summit, Trump defended calling Putin a friend; Zelenskyy called Putin a
+   "killer". Sources: One Turn, La Méditerranée global news 2026-11-21.
+7. Denmark backs US security deal 109–0 — parliament ratified the
+   Greenland security deal unanimously, clearing two new American bases.
+   Sources: "This Week in World News" roundup, 2026-11-21.
 
-## Stories
+## Around the world
 
-1. Russian ballistic missile strike on Kryvyi Rih, President Zelenskyy's hometown — 2 killed (a 7-year-old boy and a 20-year-old woman), 60 wounded including 6 children, in a double-tap attack. — AP
-2. COP31 climate talks in Antalya run into overtime with no deal yet; fossil fuels missing from the draft deal. — AP / Reuters
-3. AI stock sell-off rattles world markets — S&P 500 fell 3.7%, Japan's Nikkei fell 5.06% on fears AI spending will not pay off. — Reuters
-4. World Court finds Myanmar committed genocide against the Rohingya — landmark 9–6 ICJ ruling on 19 Nov, the first time the court has found a state responsible for genocide; reparations and safe return ordered. — Human Rights Watch / Amnesty
-5. Russia's largest November barrage on Ukraine — 404 drones and 111 missiles overnight 19–20 Nov; missiles and a drone crashed in Poland; Warsaw calls it an "intentional provocation"; NATO vows to defend all Polish territory. — AP / CBS
-6. Trump weighs new strikes on Iran as Israel presses for action; US sanctions Iranian oil traders over alleged oil-revenue scheme. — NYT / Reuters
-7. BepiColombo reaches Mercury orbit after an eight-year, 10-billion-kilometre journey — ESA/JAXA twin orbiters, only the second mission ever to orbit Mercury. — Nature / USA Today
-8. A 6.9-magnitude earthquake strikes the Junín region of Peru. — news wires
-9. India: at least 12 dead and more than 180 hospitalised after suspected contaminated drinks. — news wires
-10. Trump tells Europe to defund Ukraine after his summit with Putin. — UK Telegraph
-11. Gaza: at least 4 killed in Israeli bombardments amid the truce; food-delivery workers killed. — news wires
-12. Brazil researchers report mosquitoes carrying a bacterium cut dengue cases by 69%. — OneTurn
-13. Voyager 1 becomes the first human-made object one light-day from Earth, about 26 billion kilometres out. — Nature, 18–19 Nov
-14. Jair Bolsonaro hospitalised with stomach issues while under house arrest. — news wires
-15. UN talks agree to continue work on rules for AI weapons, in Geneva. — OneTurn
-
-## In brief
-
-- Markets — S&P 500 6,910 down 3.7%, FTSE 100 10,346 down 1.02%, Brent crude $89.95 up 0.57%.
-- Ebola death toll passes 5,700.
-- Salvadoran troops fight gangs in Haiti.
-- French police sentenced over racist beating of Michel Zecler.
-- EU–Indonesia deal after ten years of talks.
-- Russian cargo ship ablaze in the Baltic after a drone strike.
-- Denmark says it thwarted an assassination plot.
+- North Korea expanding the Yongbyon uranium enrichment plant — IAEA.
+  Source: "This Week in World News" roundup, 2026-11-21.
+- Nvidia halts H200 AI chip exports to China. Source: Standard Topic
+  world archive, 2026-11-21.
+- UK and EU seal post-Brexit reset (food, carbon, youth mobility).
+  Source: "What Happened in the World" 2026-11-21 roundup.
+- Cancer pill daraxonrasib: tumours undetectable in 1 in 12 patients.
+  Source: "What Happened in the World" 2026-11-21 roundup.
+- Gen Z Youth Day of Action: walkouts in 25 European countries. Source:
+  "What Happened in the World" 2026-11-21 roundup.
+- Tanker attacks in the Strait of Hormuz push oil shipments down 15%.
+  Source: Standard Topic world archive, 2026-11-21.
+- Denmark plans to expel the Russian envoy over a foiled assassination
+  plot. Source: Standard Topic world archive, 2026-11-21.
+- FBI investigating an apparent hack of its criminal database. Source:
+  Jabulani Radio top international news, 2026-11-21.
+- Man convicted of starting the Palisades fire in Los Angeles. Source:
+  Jabulani Radio top international news, 2026-11-21.
+- Mamdani announces a plan to close New York's Rikers Island jail by
+  2032. Source: Jabulani Radio top international news, 2026-11-21.
+- A 6.9 magnitude quake hits the Junín region of Peru. Source:
+  La Méditerranée global news, 2026-11-21.
+- Fire at an energy facility in Basra kills 4 and injures 36. Source:
+  La Méditerranée global news, 2026-11-21.
+- Remains of 129 Palestinians found in rubble in central Gaza. Source:
+  La Méditerranée global news, 2026-11-21.
+- Houthis report over 70 Saudi bombing campaigns on eight Yemeni areas.
+  Source: La Méditerranée global news, 2026-11-21.
+- Russian cargo ship on fire in the Baltic Sea after a drone strike.
+  Source: La Méditerranée global news, 2026-11-21.
+- Modi opens SCO civilisational talks in Delhi. Source: Standard Topic
+  world archive, 2026-11-21.
+- US signs a new military deal with Venezuela. Source: "This Week in
+  World News" roundup, 2026-11-21.
+- Zelenskyy calls the Crimea bridge strikes a "fair response". Source:
+  Jabulani Radio top international news, 2026-11-21.
+- EU–Indonesia agreement reached after ten years of negotiations.
+  Source: La Méditerranée global news, 2026-11-21.
+- Vance declines to back Trump's claim on an Iran nuclear weapon.
+  Source: Standard Topic world archive, 2026-11-21.
+- Anthropic shares slide on day two, close $88.91, after the biggest
+  stock-market debut in history ($81.3bn). Sources: "This Week in World
+  News" and "What Happened in the World" roundups, 2026-11-21.
+- Russia restricts some calls on WhatsApp and Telegram. Source: CFR
+  Daily News Brief, 2026-11-21.
+- Mosquitoes carrying a bacterium cut dengue cases among children in
+  Brazil, researchers reported. Source: One Turn day page, 2026-11-21.
+- Kyiv homes burn after overnight Russian strikes. Source:
+  La Méditerranée global news, 2026-11-21.
